@@ -1,9 +1,7 @@
 services:
   - type: web
     name: students-api
-    env: maven
-    buildCommand: "./mvnw clean package -DskipTests"
-    startCommand: "java -jar target/*.jar"
+    env: docker
     plan: free
     envVars:
       - key: PORT
