@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500"}) // <-- Agrega esta línea
+@CrossOrigin(origins = "https://toriros0311-bot.github.io") // <-- Agrega esta línea
 public class StudentController {
 
     @Autowired
